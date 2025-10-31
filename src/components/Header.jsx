@@ -10,6 +10,16 @@ export default function Header() {
     { href: '#contact', label: 'Contact' }
   ]
 
+  // Função para scroll suave
+  const handleNavClick = (e, href) => {
+    e.preventDefault()
+    const target = document.querySelector(href)
+    if (target) {
+      target.scrollIntoView({ behavior: 'smooth' })
+    }
+    setOpen(false)
+  }
+
   return (
     <>
       <header className="absolute top-0 left-0 right-0 z-50 bg-transparent">
@@ -31,6 +41,7 @@ export default function Header() {
                 key={link.label}
                 href={link.href}
                 className="px-4 py-2 bg-blue-600 text-white rounded-md shadow hover:bg-blue-700 transition"
+                onClick={e => handleNavClick(e, link.href)}
               >
                 {link.label}
               </a>
@@ -65,7 +76,7 @@ export default function Header() {
               key={link.label}
               href={link.href}
               className="w-11/12 px-4 py-3 bg-blue-600 text-white rounded-md shadow hover:bg-blue-700 transition text-center"
-              onClick={() => setOpen(false)}
+              onClick={e => handleNavClick(e, link.href)}
             >
               {link.label}
             </a>
