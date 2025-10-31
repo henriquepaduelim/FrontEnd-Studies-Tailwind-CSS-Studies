@@ -1,0 +1,10 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+  .container-centered { @apply max-w-7xl mx-auto px-6 }
+}
+
+html, body, #root { height: 100%; }
+body { @apply bg-gradient-to-b from-gray-900 via-black to-gray-900; }
