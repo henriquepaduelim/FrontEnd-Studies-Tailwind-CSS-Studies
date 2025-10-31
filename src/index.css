@@ -4,7 +4,16 @@
 
 @layer components {
   .container-centered { @apply max-w-7xl mx-auto px-6 }
+  .perspective { perspective: 1200px; }
+  .transform-style-preserve-3d { transform-style: preserve-3d; }
+  .backface-hidden { backface-visibility: hidden; }
+  .rotate-y-180 { transform: rotateY(180deg); }
 }
 
 html, body, #root { height: 100%; }
-body { @apply bg-gradient-to-b from-[#FBB02D] via-[#7CB518] to-[#FB6107]; }
+body { @apply bg-blue-100; }
+
+body {
+    font-family: 'Geist', sans-serif;
+    
+}

@@ -12,7 +12,7 @@ export default function Header() {
 
   return (
     <>
-      <header className="fixed top-0 left-0 right-0 z-50 bg-transparent">
+      <header className="absolute top-0 left-0 right-0 z-50 bg-transparent">
         <div className="max-w-7xl mx-auto px-6 py-6 flex items-center justify-between">
           <div className="flex items-center gap-3">
             <div className="w-10 h-10 bg-gradient-to-br from-green-400 to-blue-500 rounded-full flex items-center justify-center shadow-lg">
@@ -41,7 +41,7 @@ export default function Header() {
           {/* Mobile burger */}
           <div className="md:hidden">
             <button
-              className="p-2 rounded-md bg-white/10 backdrop-blur"
+              className="p-2 rounded-md bg-white/10 backdrop-blur hover:bg-white/20 transition"
               aria-label="Open menu"
               onClick={() => setOpen(!open)}
             >
@@ -53,9 +53,9 @@ export default function Header() {
         </div>
       </header>
 
-      {/* Mobile menu - empurra o conteúdo */}
+      {/* Mobile menu*/}
       <div
-        className={`md:hidden w-full bg-blue-950 shadow-lg transition-all duration-300 overflow-hidden ${open ? 'max-h-[400px] py-6' : 'max-h-0 py-0'}`}
+        className={`md:hidden w-full bg-blue-950 shadow-lg transition-all duration-100 overflow-hidden ${open ? 'max-h-[400px] py-6' : 'max-h-0 py-0'}`}
         style={{ zIndex: 49 }}
       >
         <div className={`flex flex-col items-center gap-4 ${open ? 'opacity-100' : 'opacity-0'} transition-opacity duration-300`}>

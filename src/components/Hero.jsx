@@ -1,4 +1,6 @@
 import React from 'react'
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { faEarthAmericas, faStopwatch20 } from '@fortawesome/free-solid-svg-icons'
 
 export default function Hero() {
   return (
@@ -20,12 +22,16 @@ export default function Hero() {
 
         <div className="mt-12 flex items-center justify-center gap-6 text-sm text-gray-300">
           <div className="flex items-center gap-2">
-            <span className="w-10 h-10 rounded-full bg-white/10 flex items-center justify-center">⚽</span>
+            <span className="w-10 h-10 rounded-full bg-white/10 flex items-center justify-center">
+              <FontAwesomeIcon icon={faEarthAmericas} className="mx-auto my-auto" style={{ fontSize: '1.5rem' }} />
+            </span>
             <span>Trusted by clubs worldwide</span>
           </div>
 
           <div className="flex items-center gap-2">
-            <span className="w-10 h-10 rounded-full bg-white/10 flex items-center justify-center">📊</span>
+            <span className="w-10 h-10 rounded-full bg-white/10 flex items-center justify-center">
+              <FontAwesomeIcon icon={faStopwatch20} className="mx-auto my-auto" style={{ fontSize: '1.5rem' }} />
+            </span>
             <span>Analytics-first</span>
           </div>
         </div>
