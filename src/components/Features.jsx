@@ -90,7 +90,7 @@ export default function Features() {
     <section id="features" className="py-20 bg-gradient-to-b from-black/0 to-black/5">
       <div className="max-w-full mx-auto px-1">
         <div className="text-center">
-          <h2 className="text-3xl font-bold">Main features</h2>
+          <h2 className="text-3xl font-bold">Features</h2>
           <p className="mt-3 text-gray-950 max-w-2xl mx-auto">Everything your team needs to manage athletes, analyze performance, and make data-driven decisions.</p>
         </div>
         <div
