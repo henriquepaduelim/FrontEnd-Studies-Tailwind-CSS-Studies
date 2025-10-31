@@ -21,7 +21,7 @@ export default function Header() {
                 <path d="M6 8h.01" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round" />
               </svg>
             </div>
-            <span className="font-bold text-lg">Playbook</span>
+            <span className="font-bold text-lg">StatsCat</span>
           </div>
 
           {/* Desktop nav */}
@@ -35,19 +35,20 @@ export default function Header() {
                 {link.label}
               </a>
             ))}
-            <button className="ml-2 px-4 py-2 bg-blue-600 text-white rounded-md shadow hover:bg-blue-700 transition">Get Started</button>
+            <button className="ml-2 px-4 py-2 bg-blue-600 text-white rounded-md shadow hover:bg-blue-700 transition " >Get Started</button>
           </nav>
 
-          {/* Mobile burger */}
+          {/* Mobile burger com delicious-hamburgers */}
           <div className="md:hidden">
             <button
-              className="p-2 rounded-md bg-white/10 backdrop-blur hover:bg-white/20 transition"
+              className={`hamburger hamburger--push${open ? ' is-active' : ''}`}
+              type="button"
               aria-label="Open menu"
               onClick={() => setOpen(!open)}
             >
-              <svg className="w-6 h-6 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M4 6h16M4 12h16M4 18h16" />
-              </svg>
+              <div className="hamburger__box">
+                <div className="hamburger__inner"></div>
+              </div>
             </button>
           </div>
         </div>

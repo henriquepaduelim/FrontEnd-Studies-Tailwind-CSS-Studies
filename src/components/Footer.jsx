@@ -5,7 +5,7 @@ export default function Footer() {
     <footer className="bg-blue-950 text-white border-t border-gray-800">
       <div className="max-w-7xl mx-auto px-6 py-12 grid grid-cols-1 md:grid-cols-3 gap-8">
         <div>
-          <h4 className="font-bold text-white">Playbook</h4>
+          <h4 className="font-bold text-white">StatsCat</h4>
           <p className="mt-3 text-sm">Solutions for athlete management, performance analytics, and scouting.</p>
         </div>
 
@@ -20,13 +20,13 @@ export default function Footer() {
 
         <div>
           <h5 className="font-semibold text-white">Contact</h5>
-          <p className="mt-3 text-sm">hello@playbook.com</p>
+          <p className="mt-3 text-sm">admin@statscat.com</p>
           <p className="text-sm">+1 (555) 123-4567</p>
         </div>
       </div>
 
       <div className="border-t border-gray-800">
-        <div className="max-w-7xl mx-auto px-6 py-6 text-sm text-gray-500 text-center">© {new Date().getFullYear()} Playbook. All rights reserved.</div>
+        <div className="max-w-7xl mx-auto px-6 py-6 text-sm text-gray-500 text-center">© {new Date().getFullYear()} StatsCat. All rights reserved.</div>
       </div>
     </footer>
   )
