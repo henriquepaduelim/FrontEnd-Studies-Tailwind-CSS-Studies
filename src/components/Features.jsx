@@ -11,23 +11,23 @@ const FeatureCard = ({ title, desc, icon }) => (
 export default function Features() {
   const features = [
     {
-      title: 'Gestão de atletas',
-      desc: 'Perfil completo, histórico de lesões, contratos e integração com wearables.',
+      title: 'Athlete management',
+      desc: 'Complete profile, injury history, contracts, and wearables integration.',
       icon: '👥'
     },
     {
-      title: 'Dashboards de desempenho',
-      desc: 'Métricas em tempo real, comparativos e visualizações customizáveis.',
+      title: 'Performance dashboards',
+      desc: 'Real-time metrics, comparisons, and customizable visualizations.',
       icon: '📈'
     },
     {
-      title: 'Relatórios automáticos',
-      desc: 'Relatórios periódicos enviados por e-mail e exportáveis em PDF.',
+      title: 'Automated reports',
+      desc: 'Periodic reports sent by email and exportable as PDF.',
       icon: '📄'
     },
     {
-      title: 'Rankings e scouting',
-      desc: 'Sistema de pontuação e filtros avançados para encontrar talentos.',
+      title: 'Rankings & scouting',
+      desc: 'Scoring system and advanced filters to find talents.',
       icon: '🏆'
     }
   ]
@@ -36,8 +36,8 @@ export default function Features() {
     <section id="features" className="py-20 bg-gradient-to-b from-black/0 to-black/5">
       <div className="max-w-7xl mx-auto px-6">
         <div className="text-center">
-          <h2 className="text-3xl font-bold">Funcionalidades principais</h2>
-          <p className="mt-3 text-gray-400 max-w-2xl mx-auto">Tudo que sua equipe precisa para gerenciar atletas, analisar desempenho e tomar decisões baseadas em dados.</p>
+          <h2 className="text-3xl font-bold">Main features</h2>
+          <p className="mt-3 text-gray-400 max-w-2xl mx-auto">Everything your team needs to manage athletes, analyze performance, and make data-driven decisions.</p>
         </div>
 
         <div className="mt-12 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">

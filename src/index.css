@@ -7,4 +7,4 @@
 }
 
 html, body, #root { height: 100%; }
-body { @apply bg-gradient-to-b from-gray-900 via-black to-gray-900; }
+body { @apply bg-gradient-to-b from-[#FBB02D] via-[#7CB518] to-[#FB6107]; }

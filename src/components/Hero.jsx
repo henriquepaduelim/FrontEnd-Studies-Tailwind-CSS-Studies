@@ -10,8 +10,8 @@ export default function Hero() {
       <div className="absolute inset-0 bg-black/50 backdrop-blur-sm"></div>
 
       <div className="relative z-10 max-w-4xl mx-auto px-6 text-center">
-        <h1 className="text-4xl md:text-6xl font-extrabold leading-tight drop-shadow-lg">Gerencie atletas e clubes com inteligência</h1>
-        <p className="mt-6 text-lg md:text-xl text-gray-200 max-w-2xl mx-auto">Dashboards de desempenho, relatórios automatizados e rankings — tudo numa plataforma ágil feita para times de futebol modernos.</p>
+        <h1 className="text-4xl md:text-6xl font-extrabold leading-tight drop-shadow-lg">Manage athletes and clubs intelligently</h1>
+        <p className="mt-6 text-lg md:text-xl text-gray-200 max-w-2xl mx-auto">Performance dashboards, automated reports, and rankings — all in a fast platform built for modern football teams.</p>
 
         <div className="mt-10 flex items-center justify-center gap-4">
           <a href="#contact" className="inline-flex items-center gap-3 px-6 py-3 bg-blue-600 hover:bg-blue-700 transition rounded-md shadow-lg">Request Demo</a>

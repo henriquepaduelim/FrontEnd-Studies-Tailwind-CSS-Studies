@@ -9,16 +9,16 @@ const Testimonial = ({ quote, name, role }) => (
 
 export default function Testimonials() {
   const data = [
-    { quote: 'A plataforma transformou nossa gestão de atletas — simples e poderosa.', name: 'Carlos Silva', role: 'Diretor Técnico, Clube ABC' },
-    { quote: 'Agora tomamos decisões com dados reais, reduziu lesões e melhorou performance.', name: 'Mariana Costa', role: 'Fisioterapeuta, Clube XYZ' }
+    { quote: 'The platform transformed our athlete management — simple and powerful.', name: 'Carlos Silva', role: 'Technical Director, ABC Club' },
+    { quote: 'Now we make decisions with real data, reduced injuries and improved performance.', name: 'Mariana Costa', role: 'Physiotherapist, XYZ Club' }
   ]
 
   return (
     <section id="testimonials" className="py-20">
       <div className="max-w-6xl mx-auto px-6">
         <div className="text-center mb-10">
-          <h2 className="text-2xl font-bold">O que nossos clientes dizem</h2>
-          <p className="mt-2 text-gray-400">Depoimentos reais de profissionais do futebol.</p>
+          <h2 className="text-2xl font-bold">What our clients say</h2>
+          <p className="mt-2 text-gray-400">Real testimonials from football professionals.</p>
         </div>
 
         <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
