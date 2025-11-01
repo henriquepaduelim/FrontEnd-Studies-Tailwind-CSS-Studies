@@ -1,18 +1,18 @@
-# 🏆 Modern Sports Landing Page Template
+# Modern Sports Landing Page Template
 
 A professional, responsive landing page template built with **React**, **Vite**, and **Tailwind CSS**. Perfect for sports management platforms, fitness apps, team websites, or any sports-related business.
 
-## ✨ Features
+## Features
 
-- 🎨 **Modern Design** - Clean, professional UI with smooth animations
-- 📱 **Fully Responsive** - Optimized for desktop, tablet, and mobile
-- ⚡ **Fast Performance** - Built with Vite for lightning-fast loading
-- 🎯 **Easy Customization** - Simple configuration file for quick setup
-- 🧩 **Modular Components** - Reusable React components
-- 💎 **Premium Quality** - Production-ready code
-- 🎪 **Interactive Elements** - Hover effects, smooth scrolling, form validation
+- Modern Design - Clean, professional UI with smooth animations
+- Fully Responsive - Optimized for desktop, tablet, and mobile
+- Fast Performance - Built with Vite for lightning-fast loading
+- Easy Customization - Simple configuration file for quick setup
+- Modular Components - Reusable React components
+- Premium Quality - Production-ready code
+- Interactive Elements - Hover effects, smooth scrolling, form validation
 
-## 🚀 Quick Start
+## Quick Start
 
 ### Prerequisites
 - Node.js 16+ 
@@ -39,7 +39,7 @@ npm run dev
 4. **Open in Browser**
 Visit `http://localhost:5173`
 
-## 🎨 Customization
+## Customization
 
 ### 1. Basic Configuration
 Edit `src/config.js` to customize:
@@ -57,7 +57,7 @@ Replace files in `public/assets/`:
 ### 3. Colors & Styling
 Update theme colors in `src/config.js` or modify Tailwind classes directly.
 
-## 📁 Project Structure
+## Project Structure
 
 ```
 src/
@@ -75,13 +75,13 @@ src/
 └── main.jsx           # App entry point
 ```
 
-## 🛠️ Build for Production
+## Build for Production
 
 ```bash
 npm run build
 ```
 
-## 🚀 Deployment
+## Deployment
 
 The template works with any static hosting service:
 - **Vercel** (Recommended)
@@ -89,37 +89,37 @@ The template works with any static hosting service:
 - **GitHub Pages**
 - **Firebase Hosting**
 
-## 📋 Use Cases
+## Use Cases
 
 Perfect for:
-- 🏃‍♂️ Sports management platforms
-- 🏋️‍♀️ Fitness and wellness apps
-- ⚽ Sports teams and clubs
-- 🏆 Tournament and event websites
-- 📊 Sports analytics services
-- 🎯 Coaching and training platforms
+- Sports management platforms
+- Fitness and wellness apps
+- Sports teams and clubs
+- Tournament and event websites
+- Sports analytics services
+- Coaching and training platforms
 
-## 🎯 What's Included
+## What's Included
 
-- ✅ Responsive landing page
-- ✅ Interactive features carousel
-- ✅ Testimonials section
-- ✅ Pricing table with highlighted plan
-- ✅ Contact form (ready for backend integration)
-- ✅ Modern animations and transitions
-- ✅ SEO-friendly structure
-- ✅ Clean, maintainable code
+- Responsive landing page
+- Interactive features carousel
+- Testimonials section
+- Pricing table with highlighted plan
+- Contact form (ready for backend integration)
+- Modern animations and transitions
+- SEO-friendly structure
+- Clean, maintainable code
 
-## 📞 Support
+## Support
 
 For questions or support, please contact:
-- 📧 Email: [your-email@domain.com]
-- 💬 Discord: [your-discord-server]
+- Email: [your-email@domain.com]
+- Discord: [your-discord-server]
 
-## 📄 License
+## License
 
 This template is licensed under [Your License]. See LICENSE file for details.
 
 ---
 
-**⭐ Don't forget to star this template if you found it useful!**
+**Don't forget to star this template if you found it useful!**

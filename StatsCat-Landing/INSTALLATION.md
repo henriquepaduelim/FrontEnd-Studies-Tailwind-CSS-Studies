@@ -1,6 +1,6 @@
-# ⚡ Quick Installation Guide
+# Quick Installation Guide
 
-## 🚀 Get Started in 3 Minutes
+## Get Started in 3 Minutes
 
 ### Prerequisites
 - Node.js 16+ installed on your computer
@@ -24,7 +24,7 @@ npm run dev
 ```
 Your site will open at `http://localhost:5173`
 
-## ✏️ Quick Customization
+## Quick Customization
 
 ### Change Company Name
 Edit `src/config.js`:
@@ -61,7 +61,7 @@ theme: {
 }
 ```
 
-## 🏗️ Build for Production
+## Build for Production
 
 When ready to deploy:
 ```bash
@@ -70,7 +70,7 @@ npm run build
 
 Upload the `dist` folder to your hosting service.
 
-## 🆘 Common Issues
+## Common Issues
 
 **Node.js not installed?**
 Download from: https://nodejs.org
@@ -86,6 +86,6 @@ Check the full documentation in `README.md` and `CUSTOMIZATION.md`
 
 ---
 
-**🎉 That's it! Your sports landing page is ready!**
+**That's it! Your sports landing page is ready!**
 
 For detailed customization options, see `CUSTOMIZATION.md`

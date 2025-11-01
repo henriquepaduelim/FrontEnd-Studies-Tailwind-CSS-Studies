@@ -1,12 +1,12 @@
-# 🛟 Support & Help
+# Support & Help
 
-## 📞 Getting Help
+## Getting Help
 
 ### Before Contacting Support
-1. ✅ Check the `README.md` for installation instructions
-2. ✅ Review `CUSTOMIZATION.md` for customization options  
-3. ✅ Look through `INSTALLATION.md` for quick start
-4. ✅ Check the FAQ section below
+1. Check the `README.md` for installation instructions
+2. Review `CUSTOMIZATION.md` for customization options  
+3. Look through `INSTALLATION.md` for quick start
+4. Check the FAQ section below
 
 ### Contact Support
 **Email**: [your-support-email@domain.com]
@@ -20,7 +20,7 @@
 - Screenshots if applicable
 - Error messages (if any)
 
-## 🔧 Troubleshooting
+## Troubleshooting
 
 ### Installation Issues
 
@@ -81,7 +81,7 @@ A:
 2. Check file paths start with `/` not `./`
 3. Ensure hosting service serves static files
 
-## ❓ Frequently Asked Questions
+## Frequently Asked Questions
 
 ### General
 
@@ -125,14 +125,14 @@ A: Add new plan objects to the `pricing.plans` array in `src/config.js`.
 **Q: Can I use different fonts?**
 A: Yes, update the Google Fonts link in `index.html` and modify CSS in `src/index.css`.
 
-## 🎯 Feature Requests
+## Feature Requests
 
 Have an idea for a new feature? We'd love to hear it!
 Send your suggestions to: [your-email@domain.com]
 
 Popular requests may be included in future updates.
 
-## 📚 Additional Resources
+## Additional Resources
 
 ### Learning Resources
 - [React Documentation](https://react.dev)
@@ -150,17 +150,17 @@ Popular requests may be included in future updates.
 - [GitHub Pages](https://pages.github.com) - Free
 - [Firebase Hosting](https://firebase.google.com/docs/hosting) - Free tier
 
-## 📝 Feedback
+## Feedback
 
 Your feedback helps us improve! Please rate your experience:
-- ⭐⭐⭐⭐⭐ Excellent
-- ⭐⭐⭐⭐ Good  
-- ⭐⭐⭐ Average
-- ⭐⭐ Poor
-- ⭐ Very Poor
+- 5 stars: Excellent
+- 4 stars: Good  
+- 3 stars: Average
+- 2 stars: Poor
+- 1 star: Very Poor
 
 Send feedback to: [your-email@domain.com]
 
 ---
 
-**Thank you for choosing our Sports Landing Page Template! 🏆**
+**Thank you for choosing our Sports Landing Page Template!**

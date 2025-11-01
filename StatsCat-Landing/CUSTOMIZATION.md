@@ -1,8 +1,8 @@
-# 🎨 Customization Guide
+# Customization Guide
 
 This guide will help you customize the Sports Landing Page Template to match your brand and business needs.
 
-## 🚀 Quick Customization (5 minutes)
+## Quick Customization (5 minutes)
 
 ### 1. Update Company Information
 Edit `src/config.js`:
@@ -32,7 +32,7 @@ contact: {
 - Recommended logo size: 200x60px (PNG with transparent background)
 - Video format: MP4, max 5MB for fast loading
 
-## 🎨 Advanced Customization
+## Advanced Customization
 
 ### Colors and Branding
 
@@ -129,7 +129,7 @@ social: {
 }
 ```
 
-## 🔧 Adding New Sections
+## Adding New Sections
 
 ### 1. Create New Component
 Create `src/components/About.jsx`:
@@ -159,7 +159,7 @@ import About from './components/About'
 ### 3. Update Navigation
 Add to `src/config.js` navigation array.
 
-## 📱 Responsive Customization
+## Responsive Customization
 
 ### Breakpoints (Tailwind CSS)
 - `sm:` - 640px and up (mobile landscape)
@@ -179,7 +179,7 @@ className="w-full md:w-1/2"
 className="hidden md:block"
 ```
 
-## 🎭 Animation Customization
+## Animation Customization
 
 ### Hover Effects
 Already included in components. Customize by updating:
@@ -191,7 +191,7 @@ className="transform hover:scale-105 transition-transform duration-300"
 className="bg-blue-600 hover:bg-blue-700 transition-colors"
 ```
 
-## 🔍 SEO Customization
+## SEO Customization
 
 ### Update Meta Tags (`index.html`)
 ```html
@@ -209,14 +209,14 @@ seo: {
 }
 ```
 
-## 📊 Performance Tips
+## Performance Tips
 
 1. **Optimize Images**: Use WebP format when possible
 2. **Compress Video**: Keep background video under 5MB
 3. **Minimize Dependencies**: Only import used FontAwesome icons
 4. **Use Tailwind Purge**: Automatically removes unused CSS
 
-## 🆘 Common Issues
+## Common Issues
 
 ### Logo Not Showing
 - Ensure logo is in `public/assets/`
@@ -233,7 +233,7 @@ seo: {
 - Use browser dev tools responsive mode
 - Check Tailwind responsive classes
 
-## 📞 Need Help?
+## Need Help?
 
 If you need assistance with customization:
 1. Check this guide first
@@ -242,4 +242,4 @@ If you need assistance with customization:
 
 ---
 
-**Happy customizing! 🚀**
+**Happy customizing!**

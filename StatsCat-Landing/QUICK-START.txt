@@ -1,10 +1,10 @@
-🏆 SPORTS LANDING PAGE TEMPLATE - QUICK START
+SPORTS LANDING PAGE TEMPLATE - QUICK START
 ==============================================
 
 Thank you for purchasing our Sports Landing Page Template!
 This template is ready to use and easy to customize.
 
-⚡ SUPER QUICK SETUP (3 minutes)
+SUPER QUICK SETUP (3 minutes)
 ================================
 
 1. INSTALL NODE.JS (if not installed)
@@ -28,9 +28,9 @@ This template is ready to use and easy to customize.
    → Press Enter
    → Your browser will open automatically at localhost:5173
 
-🎉 CONGRATULATIONS! Your template is running!
+CONGRATULATIONS! Your template is running!
 
-✏️ QUICK CUSTOMIZATION
+QUICK CUSTOMIZATION
 ======================
 
 To customize your template, edit the file: src/config.js
@@ -55,14 +55,14 @@ REPLACE LOGO:
 1. Put your logo in: public/assets/logo.png
 2. Recommended size: 200x60 pixels
 
-🏗️ BUILD FOR PRODUCTION
+BUILD FOR PRODUCTION
 =======================
 
 When ready to put online:
 1. Type: npm run build
 2. Upload the "dist" folder to your hosting
 
-📚 NEED MORE HELP?
+NEED MORE HELP?
 ==================
 
 • Full Guide: Open README.md
@@ -70,7 +70,7 @@ When ready to put online:
 • Problems: Open SUPPORT.md
 • Support Email: [your-email@domain.com]
 
-🎯 WHAT'S INCLUDED
+WHAT'S INCLUDED
 ==================
 
 ✓ Responsive landing page
@@ -82,6 +82,6 @@ When ready to put online:
 ✓ Easy customization
 ✓ Complete documentation
 
-🚀 ENJOY BUILDING YOUR AMAZING WEBSITE!
+ENJOY BUILDING YOUR AMAZING WEBSITE!
 
 Need help? We're here for you: [your-email@domain.com]
