@@ -123,12 +123,3 @@ export default function Features() {
     </section>
   )
 }
-
-// CSS extra para flip
-// Adicione em index.css:
-// .perspective { perspective: 1200px; }
-// .transform-style-preserve-3d { transform-style: preserve-3d; }
-// .backface-hidden { backface-visibility: hidden; }
-// .rotate-y-180 { transform: rotateY(180deg); }
-// .no-scrollbar::-webkit-scrollbar { display: none; }
-// .no-scrollbar { -ms-overflow-style: none; scrollbar-width: none; }
