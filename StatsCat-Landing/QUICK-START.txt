@@ -1,0 +1,87 @@
+🏆 SPORTS LANDING PAGE TEMPLATE - QUICK START
+==============================================
+
+Thank you for purchasing our Sports Landing Page Template!
+This template is ready to use and easy to customize.
+
+⚡ SUPER QUICK SETUP (3 minutes)
+================================
+
+1. INSTALL NODE.JS (if not installed)
+   → Download from: https://nodejs.org
+   → Choose "LTS" version
+
+2. OPEN TERMINAL/COMMAND PROMPT
+   → Windows: Press Win+R, type "cmd", press Enter
+   → Mac: Press Cmd+Space, type "terminal", press Enter
+
+3. NAVIGATE TO PROJECT FOLDER
+   → Type: cd "path/to/your/project/folder"
+   → Press Enter
+
+4. INSTALL DEPENDENCIES
+   → Type: npm install
+   → Press Enter (this may take 1-2 minutes)
+
+5. START DEVELOPMENT SERVER
+   → Type: npm run dev
+   → Press Enter
+   → Your browser will open automatically at localhost:5173
+
+🎉 CONGRATULATIONS! Your template is running!
+
+✏️ QUICK CUSTOMIZATION
+======================
+
+To customize your template, edit the file: src/config.js
+
+CHANGE COMPANY NAME:
+company: {
+  name: "Your Company Name",  ← Change this
+}
+
+CHANGE CONTACT INFO:
+contact: {
+  email: "your@email.com",    ← Your email
+  phone: "+1 234 567 8900",   ← Your phone
+}
+
+CHANGE COLORS:
+theme: {
+  primary: "purple-600",      ← Main color (blue-600, green-600, etc.)
+}
+
+REPLACE LOGO:
+1. Put your logo in: public/assets/logo.png
+2. Recommended size: 200x60 pixels
+
+🏗️ BUILD FOR PRODUCTION
+=======================
+
+When ready to put online:
+1. Type: npm run build
+2. Upload the "dist" folder to your hosting
+
+📚 NEED MORE HELP?
+==================
+
+• Full Guide: Open README.md
+• Customization: Open CUSTOMIZATION.md  
+• Problems: Open SUPPORT.md
+• Support Email: [your-email@domain.com]
+
+🎯 WHAT'S INCLUDED
+==================
+
+✓ Responsive landing page
+✓ Interactive features section
+✓ Professional pricing tables
+✓ Contact form
+✓ Customer testimonials
+✓ Modern animations
+✓ Easy customization
+✓ Complete documentation
+
+🚀 ENJOY BUILDING YOUR AMAZING WEBSITE!
+
+Need help? We're here for you: [your-email@domain.com]

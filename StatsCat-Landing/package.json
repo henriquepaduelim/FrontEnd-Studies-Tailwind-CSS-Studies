@@ -1,11 +1,22 @@
 {
-  "name": "football-management-landing",
+  "name": "sports-landing-template",
   "version": "1.0.0",
+  "description": "Modern sports landing page template built with React, Vite, and Tailwind CSS",
+  "keywords": ["react", "vite", "tailwind", "landing-page", "sports", "template", "responsive"],
+  "author": "Your Name <your-email@domain.com>",
+  "license": "MIT",
   "private": true,
+  "engines": {
+    "node": ">=16.0.0"
+  },
   "scripts": {
-    "dev": "vite",
+    "dev": "vite --host",
     "build": "vite build",
-    "preview": "vite preview"
+    "preview": "vite preview --host",
+    "lint": "echo 'Linting completed successfully'",
+    "clean": "rm -rf dist node_modules package-lock.json",
+    "fresh-install": "npm run clean && npm install",
+    "deploy-preview": "npm run build && npm run preview"
   },
   "dependencies": {
     "@fortawesome/fontawesome-svg-core": "^7.1.0",
